@@ -1,0 +1,10 @@
+FROM node:18-alpine
+WORKDIR /usr/src/app
+COPY backend/package*.json ./
+RUN npm ci --production --legacy-peer-deps
+COPY backend/ ./
+# If your backend needs build step (ts), include it here
+# RUN npm run build
+ENV PORT=4000
+EXPOSE 4000
+CMD ["node", "server.js"]
