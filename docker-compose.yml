@@ -1,6 +1,6 @@
 services:
   mongodb:
-    image: mongo:latest
+    image: aayush11092000/mongo:latest
     container_name: mongodb
     restart: always
     environment:
@@ -19,6 +19,8 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
+    image: aayush11092000/mean-backend:latest
+    restart: always
     container_name: mean-backend
     ports:
       - "8080:8080"
@@ -32,6 +34,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
+    image: aayush11092000/mean-frontend:latest
     container_name: mean-frontend
     ports:
       - "80:80"
