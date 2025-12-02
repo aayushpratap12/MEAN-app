@@ -42,7 +42,7 @@ npm install
 ![Mongo Express](https://github.com/aayushpratap12/MEAN-app/blob/58ae3f30ec286c1a83875e6a194590170b82909e/mongo-express.png.png)
 
 ###  Tutorials List Page
-![Tutorials List](screenshots/tutorials-list.png)
+![Tutorials List](https://github.com/aayushpratap12/MEAN-app/blob/f879d9504d2616c81cc59d876b0fa0a424634538/tutorials-list.png.png)
 
 ###  Add Tutorial Page
 ![Add Tutorial](screenshots/add-tutorial.png)
