@@ -39,7 +39,7 @@ npm install
 ##  Screenshots
 
 ###  Mongo Express Dashboard
-![Mongo Express](screenshots/mongo-express.png)
+![Mongo Express](https://github.com/aayushpratap12/MEAN-app/blob/58ae3f30ec286c1a83875e6a194590170b82909e/mongo-express.png.png)
 
 ###  Tutorials List Page
 ![Tutorials List](screenshots/tutorials-list.png)
